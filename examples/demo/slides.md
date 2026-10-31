@@ -3,8 +3,8 @@ marp: true
 theme: default
 paginate: true
 size: 16:9
-header: '微光烘豆室｜第二間店募資提案'
-footer: '範例簡報，公司與數字皆為虛構'
+header: 'Dawnlight Roasters | Second store pitch'
+footer: 'Sample deck. The company and numbers are made up.'
 style: |
   section {
     font-family: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
@@ -110,153 +110,144 @@ style: |
 <!-- _header: '' -->
 <!-- _footer: '' -->
 
-# 微光烘豆室
+# Dawnlight Roasters
 
-## 第二間店募資提案
+## Funding our second store
 
-**種子輪 NT$300 萬**
+**Raising NT$3 million**
 
-範例簡報，公司與數字皆為虛構
+Sample deck. The company and numbers are made up.
 
 <!--
-大家好，我是微光烘豆室的創辦人。接下來十分鐘，我會說明為什麼現在是開第二間店的時機。
+Thanks for having me. In the next ten minutes I'll show why now is the right time for a second store.
 -->
 
 ---
 
-# 上班族想喝好咖啡，附近卻只有連鎖店
+# Office workers want good coffee, but only chains are nearby
 
-- 南港軟體園區上班人口約 **4 萬人**
-- 園區步行 5 分鐘內的 9 間咖啡店**全是連鎖店**
-- 第一間店在南港車站，園區客人要走 **12 分鐘**
-- 第一間店 212 位客人中，**63%** 願意為現烘豆多付 20 元
+- About **40,000 people** work in Nangang Software Park
+- All 9 coffee shops within a 5-minute walk are **chains**
+- Our first store is at Nangang Station, a **12-minute walk** away
+- **63%** of 212 customers would pay NT$20 more for fresh roast
 
-> 客人已經願意走 12 分鐘來買，缺的是走得到的店。
+> People already walk 12 minutes for our coffee. They need a store nearby.
 
 <!--
-問卷做在第一間店的客人身上，共 212 份。這個樣本偏向已經愛喝咖啡的人，被問到時要主動說明。
+The survey covered 212 customers at our first store, so it leans toward people who already love coffee. Say so if asked.
 -->
 
 ---
 
-# 第一間店開業 18 個月，數字已經站穩
+# 18 months in, the first store is on solid ground
 
-| 指標 | 開業第一季 | 本季 |
+| Metric | First quarter | This quarter |
 |---|---|---|
-| 月營收 | NT$29 萬 | NT$68 萬 |
-| 毛利率 | 54% | 62% |
-| 回頭客比例 | 21% | 48% |
-| 每日杯數 | 90 杯 | 210 杯 |
+| Monthly revenue | NT$290K | NT$680K |
+| Gross margin | 54% | 62% |
+| Returning customers | 21% | 48% |
+| Cups per day | 90 | 210 |
 
 <!--
-毛利率提升來自自己烘豆，不再外購熟豆。回頭客比例是用會員 App 算的。
+Margin went up because we started roasting our own beans. Returning customers come from the membership app.
 -->
 
 ---
 
-<!-- _class: part -->
-<!-- _paginate: false -->
+# Growth came from regulars, not discounts
 
-# 為什麼是現在
+![bg right:44% contain](./assets/p4_monthly_revenue.svg)
 
-## 也說明為什麼選南港
-
----
-
-# 成長來自回頭客，不是促銷
-
-![bg right:44% contain](./assets/p5_monthly_revenue.svg)
-
-- 月營收從 29 萬變成 68 萬，約 **2.3 倍**
-- 同期回頭客比例從 21% 升到 **48%**
-- 這段期間沒有打折活動
-- 上午 8 點到 10 點已經排隊
+- Monthly revenue grew about **2.3x**
+- Returning customers: 21% to **48%**
+- We ran no discounts in this period
+- There's a line from 8 to 10 a.m.
 
 <!--
-上午尖峰的等待時間平均 11 分鐘，已經開始流失客人。尖峰的主力是園區上班族，第二間店可以直接分流。
+Morning waits average 11 minutes and we're starting to lose customers. Most of that rush is office workers from the park, so a second store takes the pressure off.
 -->
 
 ---
 
-# 南港比內湖更適合第二間店
+# Nangang beats Neihu for store two
 
 <div class="cols">
 <div>
 
-**南港軟體園區**
+**Nangang Software Park**
 
-- 上班人口 4 萬人
-- 步行 5 分鐘內沒有精品咖啡店
-- 店租每坪 NT$2,800
+- 40,000 office workers
+- No specialty coffee within 5 minutes
+- Rent NT$850 per m²
 
 </div>
 <div>
 
-**內湖科技園區**
+**Neihu Science Park**
 
-- 上班人口 13 萬人
-- 已有 3 間精品咖啡店
-- 店租每坪 NT$3,600
+- 130,000 office workers
+- 3 specialty coffee shops already
+- Rent NT$1,090 per m²
 
 </div>
 </div>
 
 <!--
-內湖人更多，但精品咖啡店也更多。我們選擇沒有直接對手、店租也比內湖低的南港園區。
+Neihu has more people, but also more specialty coffee. Nangang has no direct competitor, and its rent is lower than Neihu's.
 -->
 
 ---
 
-# NT$300 萬怎麼用
+# How we'll use the NT$3 million
 
-| 用途 | 金額 | 占比 |
+| Use | Amount | Share |
 |---|---|---|
-| 店面裝修與設備 | NT$170 萬 | 57% |
-| 六個月營運週轉 | NT$90 萬 | 30% |
-| 烘豆機擴充 | NT$40 萬 | 13% |
+| Fit-out and equipment | NT$1.7M | 57% |
+| Six months of working capital | NT$0.9M | 30% |
+| Bigger roaster | NT$0.4M | 13% |
 
-出讓 **15%** 股權，投後估值 NT$2,000 萬
+Offering **15%** equity at a NT$20M post-money valuation
 
 <!--
-預計開幕後第 16 個月回本，比第一間店慢兩個月，因為園區店租比車站店高。烘豆機擴充是為了同時供應兩間店。
+We expect payback 16 months after opening, two months slower than the first store, because rent in the park is higher than at the station. The bigger roaster lets us supply both stores.
 -->
 
 ---
 
 <!-- _class: top -->
 
-<div class="kicker">接下來 12 個月</div>
+<div class="kicker">NEXT 12 MONTHS</div>
 
-# 三個里程碑
+# Three milestones
 
-簽約並開始裝修：**第 2 個月**
-
-↓
-
-第二間店開幕：**第 5 個月**
+Lease signed, fit-out starts: **month 2**
 
 ↓
 
-單店損益兩平：**第 11 個月**
+Second store opens: **month 5**
+
+↓
+
+Store breaks even: **month 11**
 
 <!--
-如果第 11 個月沒有損益兩平，我們會先把營業時間縮到早午，降低人事成本。
+If we haven't broken even by month 11, we'll cut to morning and lunch hours to lower staff costs.
 -->
 
 ---
 
 <!-- _class: dense -->
 
-# 三個最大的風險
+# The three biggest risks
 
-| 風險 | 影響 | 對策 |
+| Risk | Impact | Response |
 |---|---|---|
-| 回頭客養成比預期慢 | 損益兩平延後 | 開幕前與園區公司合作試喝 |
-| 店長人選不到位 | 品質下降 | 提前三個月培訓新店長 |
-| 咖啡生豆漲價 | 毛利率下滑 | 簽十二個月固定價合約 |
+| Regulars build slower than planned | Break-even slips | Tasting events with park offices before opening |
+| No strong store manager | Quality drops | Start training a new manager three months early |
+| Green coffee prices rise | Margin falls | Sign a 12-month fixed-price contract |
 
 <!--
-這三項是投資人最常問的。第一項最關鍵，回頭客比例要在開幕第六個月達到 30%。
+Investors ask about these three most. The first matters most: returning customers need to reach 30% by month six after opening.
 -->
 
 ---
@@ -266,12 +257,12 @@ style: |
 <!-- _header: '' -->
 <!-- _footer: '' -->
 
-# 讓南港多一杯現烘咖啡
+# More fresh coffee for Nangang
 
-## 歡迎約時間試喝
+## Come try a cup
 
 **hello@example.com**
 
 <!--
-最後請大家來店裡喝一杯，實際感受我們在做的事。
+Please come by the store and taste what we're doing.
 -->

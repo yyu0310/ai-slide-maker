@@ -49,6 +49,7 @@ python3 scripts/slides.py sheet examples/demo/slides.md
 - When you add or change a check, update `RULES` in `slides.py` and the table at the end of both guides.
 - `template/slides.md` and `examples/demo/slides.md` carry their own copy of the CSS, because each deck has to work as a single file. Change both.
 - `docs/` and all three READMEs move together. English is the main version.
+- Keep the sample deck in English, with a slide count divisible by 3, so the README overview fills every row.
 - Keep Marp terms out of the first screen of the README. Readers come for slides.
 
 ## Known behavior

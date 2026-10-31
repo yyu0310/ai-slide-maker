@@ -4,7 +4,7 @@ Tell AI what your talk is about. Get slides ready to present, then change any sl
 
 [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md)
 
-![Ten slides from a sample pitch deck](docs/demo-sheet.png)
+![Nine slides from a sample pitch deck](docs/demo-sheet.png)
 
 *A sample deck made with this tool. The company and the numbers are made up. See [the source](examples/demo/slides.md) and [the PDF](examples/demo/slides.pdf).*
 
@@ -46,7 +46,7 @@ The tool underneath is [Marp](https://marp.app), an open-source project that tur
 
 Every problem in a review quotes your deck word for word. A script confirms each quote really is in the file and gives you its line number, so you aren't chasing made-up issues.
 
-The first draft of the sample deck got 30 findings, and all 30 quotes matched. One of them: slide 6 called the rent low, while the script for slide 7 blamed high rent for the slower payback.
+The first draft of the sample deck got 30 findings, and all 30 quotes matched. One of them: one slide called the rent low, while the script for a later slide blamed high rent for the slower payback.
 
 ## Problems it catches before you present
 
