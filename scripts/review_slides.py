@@ -125,16 +125,16 @@ def write_prompts(md_path, context, out_dir):
 
 
 def selftest():
-    sample = ("Intro text 第 1 頁｜封面｜數字對不上｜原句：「量產後每架 81 天回本」；「核心是……機體」｜x｜改成「全新句子」\n\n"
+    sample = ("Intro text 第 1 頁｜封面｜數字對不上｜原句：「開幕後第 16 個月回本」；「核心是……熟客」｜x｜改成「全新句子」\n\n"
               "第 2 頁｜標題｜術語｜原句：「不存在的句子」｜x｜y\n\n第 3 頁｜沒引用｜z｜沒有引號｜x｜y\nTotal: 3")
     fs = split_findings(sample)
     assert len(fs) == 3, fs
-    assert quotes_of(fs[0]) == ["量產後每架 81 天回本", "核心是", "機體"], quotes_of(fs[0])
+    assert quotes_of(fs[0]) == ["開幕後第 16 個月回本", "核心是", "熟客"], quotes_of(fs[0])
     assert quotes_of(fs[2]) == []
-    src = norm('<div class="lede">量產後每架 <strong>81 天</strong>回本</div>\n<!--\n講稿：核心是機體\n-->\n<td>2029</td><td>量產</td>')
+    src = norm('<div class="lede">開幕後第 <strong>16 個月</strong>回本</div>\n<!--\n講稿：核心是熟客\n-->\n<td>2026</td><td>開幕</td>')
     assert all(norm(q) in src for q in quotes_of(fs[0]))
     assert norm("不存在的句子") not in src
-    assert all(norm(q) in src for q in quotes_of("第 9 頁｜t｜k｜「2029／量產」｜x｜y")), "table cells are compared one by one"
+    assert all(norm(q) in src for q in quotes_of("第 9 頁｜t｜k｜「2026／開幕」｜x｜y")), "table cells are compared one by one"
 
     assert len(split_findings("第 3 页｜标题｜类型｜「引文」｜x｜y")) == 1
 
