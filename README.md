@@ -1,14 +1,18 @@
 # AI Slide Maker
 
-Tell AI what your talk is about. Get slides ready to present, then change any slide just by asking.
+Tell AI what your talk is about. Get slides ready to present, then change any slide just by chatting.
+
+I make every talk I give this way. It replaced PowerPoint, Google Slides, Canva and Notion for me, and my longest and most polished deck so far runs 82 slides.
+
+Because a deck is one text file, AI can also scan every slide at once and catch small mistakes, such as a number that changed on one slide but not on another.
+
+Most of the built-in checks started as mistakes in my own decks. I kept the lessons in a notes file until it reached 600 lines, then turned everything a program could check into code. Before publishing, I ran them on six of my own decks, 223 slides in all.
 
 [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md)
 
 ![Nine slides from a sample pitch deck](docs/demo-sheet.png)
 
 *A sample deck made with this tool. The company and the numbers are made up. See [the source](examples/demo/slides.md) and [the PDF](examples/demo/slides.pdf).*
-
-I make every talk I give this way. It replaced PowerPoint, Google Slides and Notion for me, and my longest deck so far runs 82 slides.
 
 **Install:** paste this into Claude Code.
 
@@ -51,8 +55,6 @@ Every problem in a review quotes your deck word for word. A script confirms each
 The first draft of the sample deck got 30 findings, and all 30 quotes matched. One of them: one slide called the rent low, while the script for a later slide blamed high rent for the slower payback.
 
 ## Problems it catches before you present
-
-Most of these checks started as mistakes in my own decks. I kept the lessons in a notes file until it reached 600 lines, then turned everything a program could check into code. Before publishing, I ran the checks on six of my own decks, 223 slides in all.
 
 | Problem | What you get |
 | --- | --- |
