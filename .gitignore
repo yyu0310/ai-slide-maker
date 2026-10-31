@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.log
+.env*
+工作日誌*
+
+# Generated next to a deck
+_review/
+*.sheet.png
+*.pptx

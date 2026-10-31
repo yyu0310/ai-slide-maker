@@ -1,0 +1,13 @@
+{
+  "name": "ai-slide-maker",
+  "displayName": "AI Slide Maker",
+  "description": "Tell AI what your talk is about, get slides ready to present, and change any slide by asking.",
+  "author": {
+    "name": "yyu0310",
+    "url": "https://github.com/yyu0310"
+  },
+  "homepage": "https://github.com/yyu0310/ai-slide-maker",
+  "repository": "https://github.com/yyu0310/ai-slide-maker",
+  "license": "MIT",
+  "keywords": ["slides", "presentation", "pitch-deck", "marp"]
+}

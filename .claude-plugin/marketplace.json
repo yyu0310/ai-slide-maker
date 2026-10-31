@@ -1,0 +1,15 @@
+{
+  "name": "ai-slide-maker",
+  "description": "Make slides ready to present with your AI coding agent.",
+  "owner": {
+    "name": "yyu0310",
+    "url": "https://github.com/yyu0310"
+  },
+  "plugins": [
+    {
+      "name": "ai-slide-maker",
+      "source": "./",
+      "description": "Tell AI what your talk is about, get slides ready to present, and change any slide by asking."
+    }
+  ]
+}
