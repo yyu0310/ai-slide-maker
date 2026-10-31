@@ -1,7 +1,7 @@
 {
   "name": "ai-slide-maker",
   "displayName": "AI Slide Maker",
-  "description": "Tell AI what your talk is about, get slides ready to present, and change any slide by asking.",
+  "description": "Tell AI what your talk is about, get slides ready to present, and change any slide by chatting.",
   "author": {
     "name": "yyu0310",
     "url": "https://github.com/yyu0310"

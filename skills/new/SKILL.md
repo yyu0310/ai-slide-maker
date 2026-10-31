@@ -60,6 +60,6 @@ Tell the user:
 
 - Where the deck is
 - What is still missing, if anything
-- They can change it by asking, for example "delete the table on slide 7" or "make slide 5 text on the left, image on the right"
+- They can change it by chatting, for example "delete the table on slide 7" or "make slide 5 text on the left, image on the right"
 - `/ai-slide-maker:review` gets feedback from three kinds of reader
 - `/ai-slide-maker:export` makes the PDF

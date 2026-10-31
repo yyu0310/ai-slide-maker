@@ -18,7 +18,7 @@ Most of the built-in checks started as mistakes in my own decks. I kept the less
 
 > Install the AI Slide Maker plugin from https://github.com/yyu0310/ai-slide-maker and check that this computer has Python 3, Node.js and Chrome.
 
-## Change any slide by asking
+## Change any slide by chatting
 
 Say what you want in plain words. AI goes straight to that slide and changes only that part.
 
@@ -46,7 +46,7 @@ The tool underneath is [Marp](https://marp.app), an open-source project that tur
 | You want to | Do this | What happens |
 | --- | --- | --- |
 | Start a new talk | `/ai-slide-maker:new` | AI asks who it's for and how long you have, agrees an outline with you, then builds the slides |
-| Change something | Just ask | AI finds the slide, makes the change and checks nothing broke |
+| Change something | Just chat | AI finds the slide, makes the change and checks nothing broke |
 | Get honest feedback | `/ai-slide-maker:review` | Three readers go through the deck: a skeptical expert, a first-time listener and you rehearsing |
 | Get the final file | `/ai-slide-maker:export` | Runs the checks, then makes a PDF, and a PowerPoint file if you want one |
 

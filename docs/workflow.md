@@ -6,7 +6,7 @@ These are the four steps I follow for every talk, from getting a topic to standi
 | --- | --- | --- |
 | 1. Topic and audience | One-sentence goal | `/ai-slide-maker:new` |
 | 2. Outline | `outline.md` | `/ai-slide-maker:new` |
-| 3. Make the slides | `slides.md`, PDF | `:new`, change things by asking, `:review`, `:export` |
+| 3. Make the slides | `slides.md`, PDF | `:new`, change things by chatting, `:review`, `:export` |
 | 4. On the day | Equipment and backups | Check these yourself |
 
 ## 1. Topic and audience
