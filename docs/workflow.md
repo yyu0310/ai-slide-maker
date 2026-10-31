@@ -1,6 +1,6 @@
 # How to make a deck
 
-These are the four steps the author follows from getting a topic to standing on stage. AI works through the first three with you. The fourth is a checklist for the day.
+These are the four steps I follow for every talk, from getting a topic to standing on stage. AI works through the first three with you. The fourth is a checklist for the day.
 
 | Step | Result | Command |
 | --- | --- | --- |

@@ -8,6 +8,8 @@ Tell AI what your talk is about. Get slides ready to present, then change any sl
 
 *A sample deck made with this tool. The company and the numbers are made up. See [the source](examples/demo/slides.md) and [the PDF](examples/demo/slides.pdf).*
 
+I make every talk I give this way. It replaced PowerPoint, Google Slides and Notion for me, and my longest deck so far runs 82 slides.
+
 **Install:** paste this into Claude Code.
 
 > Install the AI Slide Maker plugin from https://github.com/yyu0310/ai-slide-maker and check that this computer has Python 3, Node.js and Chrome.
@@ -50,6 +52,8 @@ The first draft of the sample deck got 30 findings, and all 30 quotes matched. O
 
 ## Problems it catches before you present
 
+Most of these checks started as mistakes in my own decks. I kept the lessons in a notes file until it reached 600 lines, then turned everything a program could check into code. Before publishing, I ran the checks on six of my own decks, 223 slides in all.
+
 | Problem | What you get |
 | --- | --- |
 | Too much content, so the bottom of a slide gets cut off with no warning | The slide number, how far it runs over and how to fix it |
@@ -63,9 +67,9 @@ The first draft of the sample deck got 30 findings, and all 30 quotes matched. O
 
 `/ai-slide-maker:export` also makes `slides.sheet.png`, one image of every slide side by side, so you can spot a bad slide at a glance.
 
-## How to make a deck
+## How I make a deck
 
-The author's own process has four steps:
+I follow the same four steps for every talk:
 
 1. **Topic and audience:** write one sentence saying who will learn what, in how much time.
 2. **Outline:** pick a structure and settle each part's message, example and minutes.
