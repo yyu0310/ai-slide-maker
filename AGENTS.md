@@ -55,6 +55,7 @@ python3 scripts/slides.py sheet examples/demo/slides.md
 ## Known behavior
 
 - Never run Marp in the deck's folder. A `marp.config.js` there would execute, a `.marprc.yml` could turn on HTML, and an `.npmrc` could swap the package source. `run_marp` uses an empty temp folder, `--no-config-file` and a pinned version. Test before raising the pin.
+- `--allow-local-files` lets the browser read any local image a deck names. `qa` rule Q12 catches the usual syntax, not every form, and `export` doesn't run `qa` itself. Read a deck from someone you don't trust before you export it.
 - Headless Chrome with a private profile writes its output and then never exits. `run_chrome` watches the output and ends Chrome itself. Don't replace it with `subprocess.run`.
 - The rendered page lives in a temp folder, so `base_tag` points images back at the deck. Without it images fail quietly and `check` measures a shorter page.
 - Every slide in a PPTX has a notes part, even with no notes. `pptx_note_count` reads the text instead of counting files.
