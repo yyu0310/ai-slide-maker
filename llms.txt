@@ -1,0 +1,19 @@
+# AI Slide Maker
+
+> A Claude Code plugin that makes slide decks from a topic and changes any slide by plain-language request. A deck is one Markdown file, rendered with Marp. It checks each deck for cut-off content and leftovers before export, and reviews it with three kinds of reader.
+
+Commands: /ai-slide-maker:new, /ai-slide-maker:review, /ai-slide-maker:export. Changes to a deck need no command.
+
+## Docs
+
+- [README](https://github.com/yyu0310/ai-slide-maker/blob/main/README.md): what it does, install, limits
+- [Workflow](https://github.com/yyu0310/ai-slide-maker/blob/main/docs/workflow.md): the four steps from topic to stage
+- [Slide guide](https://github.com/yyu0310/ai-slide-maker/blob/main/docs/guide.md): layout decisions and what each check means
+- [AGENTS.md](https://github.com/yyu0310/ai-slide-maker/blob/main/AGENTS.md): repo layout, tests, and how to use it without Claude Code
+
+## Source
+
+- [slides.py](https://github.com/yyu0310/ai-slide-maker/blob/main/scripts/slides.py): map, qa, check, export, verify, sheet
+- [review_slides.py](https://github.com/yyu0310/ai-slide-maker/blob/main/scripts/review_slides.py): reader prompts and quote checking
+- [Template](https://github.com/yyu0310/ai-slide-maker/blob/main/template/slides.md)
+- [Sample deck](https://github.com/yyu0310/ai-slide-maker/blob/main/examples/demo/slides.md)
